@@ -14,6 +14,6 @@ title = 'Smbat Voskanyan Portfolio'
   rss = true                                # show rss icon
 
   # home page profile
-  avatar = 'http://localhost:1313/avatar.png'                 # gravatar email or image url
+  avatar = 'https://smbat.sandm.cc/avatar.png'                 # gravatar email or image url
   name = 'Smbat Voskanyan'
   bio = "Game developer three years of experience. Seven years of programming skillset. Currently doing my Master's in Game Design at Uppsala University."
