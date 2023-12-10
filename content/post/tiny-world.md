@@ -21,6 +21,8 @@ learning new techniques and would want to practically apply them somewhere. Spec
 about the project, and how to run it on your local machine are uploaded to the webpage provided in the
 link. Enjoy!
 
+[Source code](https://github.com/TheSenPie/tiny-world-java) for curious ones.
+
 {{< css.inline >}}
 
 <style>
