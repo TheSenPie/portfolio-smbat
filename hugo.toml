@@ -12,3 +12,8 @@ title = 'Smbat Voskanyan Portfolio'
   linkedin = 'smbat-voskanyan-64676915b'             # linkedin.com/in/YOUR_LINKEDIN_ID
   mastodon = 'https://mastodon.social/@SenPie@%D5%A9%D5%B8%D6%82%D5%A9.%D5%B0%D5%A1%D5%B5'           # e.g. 'https://mastodon.instance/@xxx'
   rss = true                                # show rss icon
+
+  # home page profile
+  avatar = 'http://localhost:1313/avatar.png'                 # gravatar email or image url
+  name = 'Smbat Voskanyan'
+  bio = "Game developer three years of experience. Seven years of programming skillset. Currently doing my Master's in Game Design at Uppsala University."
