@@ -1,0 +1,14 @@
+baseURL = 'https://smbat.sandm.cc/'
+languageCode = 'en-us'
+title = 'Smbat Voskanyan Portfolio'
+[module]
+  [[module.imports]]
+    path = "github.com/nanxiaobei/hugo-paper"
+[params]
+  # header social icons
+  twitter = 'TheSenPie'               # twitter.com/YOUR_TWITTER_ID
+  github = 'TheSenPie'                 # github.com/YOUR_GITHUB_ID
+  instagram = 'smbat_voskanyan'           # instagram.com/YOUR_INSTAGRAM_ID
+  linkedin = 'smbat-voskanyan-64676915b'             # linkedin.com/in/YOUR_LINKEDIN_ID
+  mastodon = 'https://mastodon.social/@SenPie@%D5%A9%D5%B8%D6%82%D5%A9.%D5%B0%D5%A1%D5%B5'           # e.g. 'https://mastodon.instance/@xxx'
+  rss = true                                # show rss icon
