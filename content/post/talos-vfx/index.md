@@ -16,7 +16,9 @@ image = "talos.png"
 # Introduction
 Talos VFX is a powerful open-source visual effects editor designed for Java and LibGDX projects. Create stunning particles, shaders, and custom scripts, while seamlessly managing game assets – all from a single workspace. Its intuitive, node-based VFX editor and support for visual programming routines (similar to Unreal Engine's blueprints) empower you to craft dynamic effects. Build 2D levels and scenes with brushes, and bring your creations to life with Spine2d skeletal animations, easily attaching VFX directly to animation bones. While primarily focused on 2D, Talos VFX also offers limited 3D support.
 
-As a major contributor to Talos VFX, I've played a role in squashing critical bugs, implementing user-requested features, and refining the overall user experience. As of writing this post I authored around ~50% of Pull Requests on the project. Here's the [link to project](https://github.com/rockbite/talos/tree/talos-3d). Note, that active development is carried on  `talos-3d` branch and `master` branch is greatly behind.
+As a major contributor to Talos VFX, I've played a role in squashing critical bugs, implementing user-requested features, and refining the overall user experience. As of writing this post I authored around ~50% of Pull Requests on the project. Here's the **[link to project](https://github.com/rockbite/talos/tree/talos-3d)**. Note, that active development is carried on  `talos-3d` branch and `master` branch is greatly behind.
+
+![On the top-left scene hierarchy, preview and scene editor. On the bottom-left routine graphical editor. On the right node-based particle system. ](talos.png)
 
 # Feature Development
 Since a lot of features were missing initally and we needed many tools for our prototypes, I had a chance to contribute a lot in this area.

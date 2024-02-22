@@ -13,7 +13,7 @@ tags = [
 image = "https://images.inc.com/uploaded_files/image/1920x1080/getty_484267200_109172.jpg"
 +++
 
-I took a bonus assignment for my Artificial Intelligence course. The work demonstrates the implementation of various algorithms for solving the n-puzzle problem, along with useful statistics for analysis. Due to the professor’s request, I have made the repository private, so students of upcoming years will not copy it, but you can access the code with [this link](https://gitfront.io/r/SenPie/fhSwHm6Huxwx/ai-22/).
+I took a bonus assignment for my Artificial Intelligence course. The work demonstrates the implementation of various algorithms for solving the n-puzzle problem, along with useful statistics for analysis. Due to the professor’s request, I have made the repository private, so students of upcoming years will not copy it, but you can access the code with **[this link](https://gitfront.io/r/SenPie/fhSwHm6Huxwx/ai-22/)**.
 
 ## Statistics
 Part 1  
