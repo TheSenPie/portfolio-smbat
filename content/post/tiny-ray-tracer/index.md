@@ -38,7 +38,7 @@ And the final hours, which took **~4 hours**. Enjoy!
 I began my performance work with multi-threading. Since ray tracing is inherently parallelizable (rays are independent calculations), this yielded immediate speedups.
 
 ## With great models comes great amount of primitives
-To make me scenes more interesting it was time to add support for triangles and models. For ray triangle intersection I implemented class [Möller–Trumbore](https://en.wikipedia.org/wiki/M%C3%B6ller%E2%80%93Trumbore_intersection_algorithm) intersection algorithm, which is still pretty close to 'as fast as possible'. Next, I hooked up [Assimp](https://en.wikipedia.org/wiki/Open_Asset_Import_Library) for loading .obj [wavefront](https://en.wikipedia.org/wiki/Wavefront_.obj_file) files with their diffuse materials.
+To make my scenes more interesting it was time to add support for triangles and models. For ray triangle intersection I implemented class [Möller–Trumbore](https://en.wikipedia.org/wiki/M%C3%B6ller%E2%80%93Trumbore_intersection_algorithm) intersection algorithm, which is still pretty close to 'as fast as possible'. Next, I hooked up [Assimp](https://en.wikipedia.org/wiki/Open_Asset_Import_Library) for loading .obj [wavefront](https://en.wikipedia.org/wiki/Wavefront_.obj_file) files with their diffuse materials.
 
 ![Triangle and a cube](triangle-cube.png) ![Robot](robot.png) ![Cow](cow.png)
 
@@ -61,12 +61,12 @@ Since I had the models it was time to optimize, so I focused on implementing BVH
 >&emsp;*SAH Jacco BVH: 1298.32ms<br>
 >&emsp;*SAH Jacco Iterative BVH: 974.8ms<br>
 
-From numbers you can see around **70 times** faster render time for spehres scene and mind-blowing **250 times** faster rendering on dragon scene.
+From numbers you can see around **70 times** faster render time for spheres scene and mind-blowing **250 times** faster rendering on dragon scene.
 
 # Lessons Learned
 
 ## Performance is King
-The BVH optimizations were a turning point, demonstrating the significant impact of efficient algorithms and data structures on rendering speed. There are other dirty optimizations, that I have on my to-do list, but I left them for later to keep the code readbility simple for now.
+The BVH optimizations were a turning point, demonstrating the significant impact of efficient algorithms and data structures on rendering speed. There are other dirty optimizations, that I have on my to-do list, but I left them for later to keep the code readability simple for now.
 
 ## Debugging Tales
 
@@ -76,7 +76,7 @@ I encountered some annoying/amusing visual errors where models would render with
 ![Sphere cut off by BVH](bvh-bug-1.png) ![Triangle BVHs all cutting each other](bvh-bug-2.png) ![Rendering wrong faces](box-bug.png)
 
 ### The Missing Volume
-A numerical bug caused triangle bounding boxes to become flat, preventing ray intersections. After much head-scratching, I solved it with minor padding, similar to a solution mentioned in Peter Shirley's book
+A numerical bug caused triangle bounding boxes to become flat, preventing ray intersections. After much head-scratching, I solved it with minor padding, similar to a solution mentioned in Peter Shirley's book.
 
 # Next Steps:
 **Lighting Expansion:** Implementing emissive lights will allow for more realistic and nuanced lighting effects.<br>

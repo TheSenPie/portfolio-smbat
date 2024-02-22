@@ -21,8 +21,6 @@ My contributions centered on the UI, ensuring new features, code refactoring, an
 
 Additionally, I collaborated closely with our analytics team to improve dashboards, graphs, filters, and other tools.  Our goal was to make analyzing user experience more accessible, enabling us to make informed game design changes.  Ultimately, my focus was on making sure "Battle Cards" didn't just look good – it had to play well too. It was a challenging, yet incredibly rewarding project.
 
-Let me know if you'd like any other adjustments – this is your showcase, and I want it to be a perfect reflection of your work!
-
 {{< css.inline >}}
 <style>
 .canon { background: white; width: 100%; height: auto; }

@@ -39,7 +39,7 @@ Nodes Generated 68217; Max Nodes in frontier 29633
 Executed Iterative Deepening Tree Search
 Nodes Generated 34232; Max Nodes in frontier 43
 ```
-Both Breadth First Three and Graph Searches found the optimal solution. Clearly huge improvements are observed with graph search version and the early goal test gives the extra bonus of cutting off extra nodes, that would be generated otherwise.   
+Both Breadth First Tree and Graph Searches found the optimal solution. Clearly huge improvements are observed with graph search version and the early goal test gives the extra bonus of cutting off extra nodes, that would be generated otherwise.   
 Although, Depth First Tree Search is known to consume very little memory space it is not effective in this case as it gets into an infinite loop.  
 Depth First Graph Search does a better job, than its Tree Search version xD. However, it generates many more nodes, than Breadth First Graph search and has a bigger frontier stretch.
 Iterative Deepening Tree Search did a good job to find a solution, and it also spent very little memory. However, it is also worth to mention, that IDTS did not find the optimal solution. Also still, 4644 + 1075 < 34232 + 43 it still consumes more memory. You may argue, that compared to BFGS, IDTS does not use an extra set to keep track of _reached_ states, however reached states is not really making new states, but rather keeps references, which is still much less, than what we get with IDTS.   
