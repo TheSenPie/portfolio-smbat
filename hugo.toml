@@ -23,7 +23,7 @@ DefaultContentLanguag = 'en'
     favicon = '/favicon.ico'
 [params.sidebar]
     emoji = '🍥'
-    subtitle = "Seasoned C++ programmer with a passion for graphics and game engine development. Six+ years of experience across various programming domains, including AI, compilers, and gameplay. Currently honing my skills with a Master's in Game Design at Uppsala University. Avatar by @𝚖𝚊𝚛𝚒𝚊_𝚜𝚘𝚝𝚗𝚎𝚛_𝚊𝚛𝚝"
+    subtitle = "Seasoned C++ programmer with a passion for graphics and game engine development. 6+ years of experience across various programming domains, including AI, compilers, and gameplay. Currently honing my skills with a Master's in Game Design at Uppsala University. Avatar by @𝚖𝚊𝚛𝚒𝚊_𝚜𝚘𝚝𝚗𝚎𝚛_𝚊𝚛𝚝"
     enabled = true
     compact = false
 [params.sidebar.avatar]
