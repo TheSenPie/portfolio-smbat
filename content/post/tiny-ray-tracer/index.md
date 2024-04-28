@@ -14,7 +14,7 @@ tags = [
 image = "https://senpie-portfolio.s3.eu-north-1.amazonaws.com/image+-+robo+fight+high+res.png"
 +++
 
-I have a background in programming, including a keen interest in graphics and game engine development. Inspired by the "Raytracing in One Weekend" book series and Jacco Bikker's insightful blog on ray tracing optimizations, I set out to build my own ray tracer.  My goal was to create a feature-rich ray tracer with a focus on performance. The source code is avaible on my **[github page](https://github.com/TheSenPie/tiny-ray-tracer)**. The rendered results are in the **[/renders](https://github.com/TheSenPie/tiny-ray-tracer/tree/main/renders)** folder.
+I have a background in programming, including a keen interest in graphics and game engine development. Inspired by the "Raytracing in One Weekend" book series and Jacco Bikker's insightful blog on ray tracing optimizations, I set out to build my own ray tracer.  My goal was to create a feature-rich ray tracer with a focus on performance. The source code is avaible on **[~my github page~](https://github.com/TheSenPie/tiny-ray-tracer)**. The rendered results are in the **[/renders](https://github.com/TheSenPie/tiny-ray-tracer/tree/main/renders)** folder.
 
 # Foundational Features
 
@@ -24,13 +24,9 @@ To start, I implemented camera controls with "look-at" functionality. This allow
 ## Image Refinement
 Anti-aliasing was crucial for reducing jagged edges and creating smoother renders. I also tackled issues like shadow acne, where incorrect shadow calculations lead to visual artifacts.
 
-Below is a evolution process from very basics to a fancy scene.
+A final render from this part of the journey, which took ~12 minutes to render. Enjoy!
 
-![Initial evolution of my ray-tracer application ( Because of compression quality may be lost. Check high quality version in my repo. )](evolution.png)
-
-And the final hours, which took **~4 hours**. Enjoy!
-
-![Final render ( Because of compression quality may be lost. Check high quality version in my repo. )](https://senpie-portfolio.s3.eu-north-1.amazonaws.com/image+-+high+quality.png)
+![Final render](https://senpie-portfolio.s3.eu-north-1.amazonaws.com/image+-+four+spheres.png)
 
 # The Power of Optimization
 
