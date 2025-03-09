@@ -5,7 +5,6 @@ aliases:
   - resumve
   - cv
 license: CC BY-NC-ND
-lastmod: '2024-02-2'
 menu:
     main: 
         weight: -90
