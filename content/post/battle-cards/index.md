@@ -12,7 +12,7 @@ tags = [
     "LibGDX",
     "JavaScript"
 ]
-image = "http://rockbitegames.com/wp-content/uploads/2022/01/art-1-1-1.png"
+image = "battlecards-bg.png"
 +++
 
 Check out **[Battle Cards](https://play.google.com/store/apps/details?id=com.rockbite.battlecards)**! It was an incredible journey that began at the **[Playcrafting NYC Game Jam 2021](https://globalgamejam.org/2021/games/realtime-battlecards-9)**.  Our team managed to create a compelling multiplayer prototype in just two days, earning recognition from the judges. Built with Java, LibGDX, and a Node.js backend, we had a solid foundation for a full release. Seeing the positive response, we decided to take "Battle Cards" to the next level. After a year of dedicated development, we launched a polished version that players genuinely enjoyed.

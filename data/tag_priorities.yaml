@@ -1,0 +1,4 @@
+priorities:
+  "C++": 1
+  "C": 2
+  "OpenGL": 3

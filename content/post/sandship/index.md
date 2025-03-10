@@ -11,7 +11,7 @@ tags = [
     "Java",
     "LibGDX"
 ]
-image = "http://rockbitegames.com/wp-content/uploads/2021/07/SandshipSide-art-min.png"
+image = "sandship-bg.png"
 +++
 
 Explore the world of **[Sandship](https://play.google.com/store/apps/details?id=com.rockbite.sandship)** blends the vastness of a Dune-like world with the addictive mechanics of Factorio.  It was one of my first projects at Rockbite Games and offered an array of exciting technical challenges. I played a crucial role in crafting the game's UI, implementing new elements, extensively refactoring for efficiency, and squashing bugs. Java and LibGDX were my tools of choice.
