@@ -12,4 +12,4 @@ menu:
             icon: user
 ---
 
-{{< embed-pdf url="resume-updated.pdf" hidePaginator="true">}}
+{{< embed-pdf url="resume-games.pdf" hidePaginator="true">}}
